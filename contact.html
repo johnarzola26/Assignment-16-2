@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John's Marketing Business</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+  </head>
+  <body>
+    <!-- wrapper div -->
+    <div id="wrapper">
+      <!-- header -->
+      <header class="top">
+        <h1>
+          <img
+            src="img/bannerMarketing.png"
+            alt="John's marketing banner"
+            width="1000px"
+            height="250px"
+          />
+        </h1>
+      </header>
+
+      <!-- navigation section -->
+      <nav class="left">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main Section -->
+      <section class="main">
+       <!-- form today's date-->
+       <form id="contact" method="post" action="submit.php">
+        <br />
+        <p>
+          <label for="date">Today's Date</label>
+          <input type="date" name="date" id="date" />
+        </p>
+
+        <!-- Fieldset Personal Information -->
+        <fieldset>
+          <legend>Personal Information</legend>
+          <!-- first name -->
+          <p>
+            <label for="fName">First Name:</label>
+            <input
+              type="text"
+              name="fName"
+              id="fName"
+              required
+              placeholder="First Name"
+            />*
+          </p>
+
+          <!-- last name -->
+          <p>
+            <label for="lName">Last Name:</label>
+            <input
+              type="text"
+              id="lName"
+              name="lName"
+              required
+              placeholder="Last Name"
+            />*
+          </p>
+
+          <!-- Street Address -->
+          <p>
+            <label for="street">Street Address:</label>
+            <input
+              type="text"
+              name="street"
+              id="street"
+              placeholder="Street Address"
+            />
+          </p>
+
+          <!-- City-->
+          <p>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" placeholder="City" />
+          </p>
+
+          <!-- State -->
+          <p>
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state" placeholder="State" />
+          </p>
+
+          <!-- zip code -->
+          <p>
+            <label for="zip">Zip Code:</label>
+            <input
+              type="number"
+              name="zip"
+              id="zip"
+              placeholder="5 digit zip"
+            />
+          </p>
+
+          <!-- Phone Number -->
+          <p>
+            <label for="phone">Phone Number:</label>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="(920)-999-9999"
+            />
+          </p>
+
+          <!-- Email-->
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com"
+            />
+          </p>
+
+          <button>Submit</button>
+          
+        </fieldset>
+
+        <br />
+        <!-- fieldset Services -->
+        <fieldset>
+          <legend>Services</legend>
+
+          <!-- what services are you looking for -->
+          <p>
+            <!-- Services -->
+            <label for="services"
+              >What type of service are you looking for?</label
+            ><br /><br />
+            <input type="radio" name="services" value="Mowing" />Social Media
+            <input
+              type="radio"
+              name="services"
+              value="Fertilizer"
+            />Website
+            <input type="radio" name="services" value="Aeration" />Advertisement
+          </p>
+          
+          <!-- Consultation -->
+          <p>
+<label for="click">Click the checkbox if you are ready for consultation</label><br>
+<input type="checkbox" name="click" value="Yes">Yes
+</p>
+
+<p>
+          <label for="feedback"
+            >Feedback about our site:</label
+          >
+          <br /><br />
+          <textarea id="feedback" name="feedback" rows="4" cols="50">
+            Enter feedback here....
+            </textarea>
+          </p>
+          <button>Submit</button>
+        </fieldset>
+      </form>
+
+      
+
+        <!-- footer section -->
+        <footer class="bottom">
+          <small>&copy; Website Rocks, Inc. 2022</small>
+          <address>
+            <small
+              >Have a question about the site?
+              <a href="mailto:johnarzola260@gmai.com">Contact us!</a></small
+            >
+          </address>
+        </footer>
+      </section>
+
+      <!-- end of wrapper div -->
+    </div>
+  </body>
+</html>

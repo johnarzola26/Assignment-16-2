@@ -1,0 +1,35 @@
+.left {
+    float: left;
+    width: 150px;
+    height: 700px;
+  }
+  
+  .main {
+    float: right;
+    width: 800px;
+  }
+  
+  .bottom {
+    height: 250px;
+  }
+  
+  .form {
+    float: left;
+    width: 480px;
+  }
+  
+  .text{
+    float: right;
+    width: 350px;
+    padding-top: 55px;
+   margin-right: 10px;
+  }
+
+  .flex{
+    display: flex;
+   
+  }
+
+  fieldset{
+    width: 500px;
+  }
